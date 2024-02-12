@@ -1,0 +1,37 @@
+{
+  "name": "rlogger",
+  "version": "1.0.0",
+  "description": "Simple logger library to make your development experience",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cybertron288/rLogger.git"
+  },
+  "author": "cybertron288",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cybertron288/rLogger/issues"
+  },
+  "homepage": "https://github.com/cybertron288/rLogger#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/plugin-proposal-optional-chaining": "^7.21.0",
+    "@babel/preset-env": "^7.23.9",
+    "@types/node": "^20.11.17",
+    "babel-cli": "^6.26.0",
+    "typescript": "^5.3.3"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.23.9"
+  }
+}
